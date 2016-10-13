@@ -7,4 +7,9 @@ public class Person {
 		
 		
 	}
+	
+	public int myAgeis(){
+		return 14;
+		
+	}
 }
