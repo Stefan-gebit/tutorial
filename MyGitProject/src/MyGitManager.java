@@ -5,6 +5,7 @@ public class MyGitManager {
 		System.out.print("first change");
 		Person p = new Person();
 		System.out.println(p.myAgeIs());
+		System.out.println("By by.");
 	}
 
 }
