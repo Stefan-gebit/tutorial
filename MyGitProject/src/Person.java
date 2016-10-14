@@ -12,12 +12,16 @@ public class Person {
 		System.out.println(somthing);
 	}
 	
-	public int myAgeis(){
+	public int myAgeIs(){
 		return 14;
 		
 	}
 	
-	public String myAdressis(){
+	/**
+	 * 
+	 * @return
+	 */
+	public String myAddressIs(){
 		return "Dallgow-Döberitz";	
 	}
 	
