@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Person entity
@@ -6,7 +8,8 @@
  *
  */
 public class Person {
-
+	private List<Car> cars = new ArrayList();
+	
 	public void say(String somthing){
 		
 		System.out.println(somthing);
@@ -17,6 +20,9 @@ public class Person {
 		
 	}
 	
+	public void addCar(Car newCar){
+		cars.add(newCar);
+	}
 	/**
 	 * 
 	 * @return
