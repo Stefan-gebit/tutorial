@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Person entity
@@ -7,6 +9,7 @@
  */
 public class Person {
 
+	private List<Boat> boats = new ArrayList();
 	public void say(String somthing){
 		
 		System.out.println(somthing);
@@ -25,4 +28,7 @@ public class Person {
 		return "Dallgow-Döberitz";	
 	}
 	
+	public void addBoat(Boat boat){
+		boats.add(boat);
+	}
 }
