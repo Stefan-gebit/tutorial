@@ -16,4 +16,9 @@ public class Person {
 		return 14;
 		
 	}
+	
+	public String myAdressis(){
+		return "Dallgow-Döberitz";	
+	}
+	
 }
