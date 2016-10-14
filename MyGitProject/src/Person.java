@@ -8,8 +8,11 @@ import java.util.List;
  *
  */
 public class Person {
+
 	private List<Car> cars = new ArrayList();
 	
+	private List<Boat> boats = new ArrayList();
+
 	public void say(String somthing){
 		
 		System.out.println(somthing);
@@ -31,4 +34,7 @@ public class Person {
 		return "Dallgow-Döberitz";	
 	}
 	
+	public void addBoat(Boat boat){
+		boats.add(boat);
+	}
 }
