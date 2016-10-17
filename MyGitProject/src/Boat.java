@@ -5,7 +5,13 @@
  *
  */
 public class Boat {
+	/**
+	 * 
+	 * @author SLemke
+	 *
+	 */
 	public enum BOATSIZE {LARGE, MEDIUM , SMALL}
+	
 	private Person person;
 	private BOATSIZE size;
 
