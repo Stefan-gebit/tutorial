@@ -4,7 +4,11 @@ public class MyGitManager {
 	/**
 	 * this is an an git tutorial
 	 * test 2
+<<<<<<< HEAD
 	 * test 4
+=======
+	 * test 3
+>>>>>>> some comments
 	 * 
 	 * @param args
 	 */
