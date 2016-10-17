@@ -3,6 +3,7 @@ public class MyGitManager {
 
 	/**
 	 * this is an an git tutorial
+	 * test 2
 	 * 
 	 * @param args
 	 */
