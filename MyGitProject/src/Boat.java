@@ -39,7 +39,10 @@ public class Boat {
 	public void setSize(BOATSIZE size){
 		this.size = size;		
 	}
-	
+	/**
+	 * 
+	 * @return
+	 */
 	public BOATSIZE getSize(){
 		return size;		
 	}
