@@ -1,3 +1,5 @@
+package de.property;
+import de.person.Person;
 
 public class Car {
 

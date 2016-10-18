@@ -1,3 +1,6 @@
+package de.property;
+
+import de.person.Person;
 
 /**
  * this is a boat

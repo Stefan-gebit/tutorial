@@ -1,5 +1,9 @@
+package de.person;
 import java.util.ArrayList;
 import java.util.List;
+
+import de.property.Boat;
+import de.property.Car;
 
 /**
  * Person entity

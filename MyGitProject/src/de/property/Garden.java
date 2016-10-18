@@ -1,4 +1,4 @@
-package de.tuto;
+package de.property;
 
 public class Garden {
 	

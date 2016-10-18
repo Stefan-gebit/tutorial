@@ -1,3 +1,4 @@
+import de.person.Person;
 
 public class MyGitManager {
 
